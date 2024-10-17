@@ -1,0 +1,124 @@
+/* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 10px; /* 0.625rem */
+    line-height: 1.5;
+}
+
+/* Heading fonts */
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Center the main heading */
+h1 {
+    text-align: center;
+}
+
+/* Add letter spacing to subheadings */
+h2 {
+    letter-spacing: 0.05em;
+}
+
+/* Indentation and spacing for paragraphs */
+p {
+    text-indent: 1.25rem;
+}
+
+ul, ol {
+    line-height: 1.5;
+}
+
+/* Styling for links */
+a {
+    text-decoration: underline;
+    color: #a66;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6a4;
+}
+
+a:focus, a:hover {
+    outline: none;
+}
+
+a.external:after {
+    content: " ↗";
+}
+
+/* Vertical navigation menu styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #a66;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #6a4;
+}
